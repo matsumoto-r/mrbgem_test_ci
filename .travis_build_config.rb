@@ -29,7 +29,7 @@ MRuby::Build.new do |conf|
   conf.gem :github => 'iij/mruby-dir'
   conf.gem :github => 'iij/mruby-socket'
   conf.gem :github => 'iij/mruby-mtest'
-  conf.gem :github => 'mattn/mruby-json'
+  #conf.gem :github => 'mattn/mruby-json'
   conf.gem :github => 'mattn/mruby-http'
   conf.gem :github => 'mattn/mruby-onig-regexp'
   #conf.gem :github => 'luisbebop/mruby-polarssl'
