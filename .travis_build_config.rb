@@ -14,9 +14,7 @@ MRuby::Build.new do |conf|
   conf.gem :github => 'matsumoto-r/mruby-userdata'
   conf.gem :github => 'matsumoto-r/mruby-ngx-mruby-ext'
   conf.gem :github => 'matsumoto-r/mruby-mod-mruby-ext'
-
-  # don't support current mruby api
-  #conf.gem :github => 'matsumoto-r/mruby-config'
+  conf.gem :github => 'matsumoto-r/mruby-config'
   
   # depend polarssl
   #conf.gem :github => 'matsumoto-r/mruby-httprequest'
