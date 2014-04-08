@@ -20,7 +20,7 @@ MRuby::Build.new do |conf|
   conf.gem :github => 'matsumoto-r/mruby-vedis'
   conf.gem :github => 'matsumoto-r/mruby-capability'
   conf.gem :github => 'matsumoto-r/mruby-growthforecast'
-  #conf.gem :github => 'matsumoto-r/mruby-netlink'
+  conf.gem :github => 'matsumoto-r/mruby-netlink'
   #conf.gem :github => 'matsumoto-r/mruby-tinymt'
   conf.gem :github => 'matsumoto-r/mruby-zabbix'
   conf.gem :github => 'matsumoto-r/mruby-sleep'
