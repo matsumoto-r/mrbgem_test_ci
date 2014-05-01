@@ -4,7 +4,7 @@ for Linux
 
 ## Checker Status
 
-[![Build Status](https://travis-ci.org/matsumoto-r/mrbgem_test_ci.png?branch=master)](https://travis-ci.org/matsumoto-r/mrbgem_test_ci)
+[![Build Status](https://travis-ci.org/matsumoto-r/mrbgem_test_ci.svg?branch=master)](https://travis-ci.org/matsumoto-r/mrbgem_test_ci)
 
 ## Target mrbgem
 
