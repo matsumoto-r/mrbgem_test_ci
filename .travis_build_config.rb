@@ -8,7 +8,7 @@ MRuby::Build.new do |conf|
   conf.gem :github => 'matsumoto-r/mruby-cgroup'
 
   # depend polarssl
-  #conf.gem :github => 'matsumoto-r/mruby-simplehttp'
+  conf.gem :github => 'matsumoto-r/mruby-simplehttp'
   
   conf.gem :github => 'matsumoto-r/mruby-spdy'
   conf.gem :github => 'matsumoto-r/mruby-userdata'
@@ -17,10 +17,10 @@ MRuby::Build.new do |conf|
   conf.gem :github => 'matsumoto-r/mruby-config'
   
   # depend polarssl
-  #conf.gem :github => 'matsumoto-r/mruby-httprequest'
+  conf.gem :github => 'matsumoto-r/mruby-httprequest'
   
   # depend polarssl
-  #conf.gem :github => 'matsumoto-r/mruby-oauth'
+  conf.gem :github => 'matsumoto-r/mruby-oauth'
   
   conf.gem :github => 'matsumoto-r/mruby-vedis'
   conf.gem :github => 'matsumoto-r/mruby-capability'
