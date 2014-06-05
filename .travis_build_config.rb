@@ -13,10 +13,12 @@ MRuby::Build.new do |conf|
   conf.gem :github => 'matsumoto-r/mruby-mod-mruby-ext'
   conf.gem :github => 'matsumoto-r/mruby-config'
   conf.gem :github => 'matsumoto-r/mruby-httprequest'
-  
+  conf.gem :github => 'matsumoto-r/mruby-simplehttpserver'
+  conf.gem :github => 'matsumoto-r/mruby-uname'
+
   # depend mruby-json
   #conf.gem :github => 'matsumoto-r/mruby-oauth'
-  
+
   # test fail on Travis CI only: Will fix
   #conf.gem :github => 'matsumoto-r/mruby-vedis'
   conf.gem :github => 'matsumoto-r/mruby-capability'
@@ -39,7 +41,7 @@ MRuby::Build.new do |conf|
 
   conf.gem :github => 'mattn/mruby-http'
   conf.gem :github => 'mattn/mruby-onig-regexp'
-  
+
   # test faile
   #conf.gem :github => 'luisbebop/mruby-polarssl'
 end
