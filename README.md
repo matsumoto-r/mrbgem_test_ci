@@ -1,6 +1,6 @@
 # mrbgem CI Checker
 
-for Linux
+mrbgem build check for Linux
 
 ## Checker Status
 
