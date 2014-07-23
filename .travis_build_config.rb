@@ -1,7 +1,8 @@
 MRuby::Build.new do |conf|
   toolchain :gcc
   conf.gembox 'default'
-  conf.gem :github => 'matsumoto-r/mruby-http2'
+  # gcc bug, can be built only by clang
+  #conf.gem :github => 'matsumoto-r/mruby-http2'
   conf.gem :github => 'matsumoto-r/mruby-memcached'
   conf.gem :github => 'matsumoto-r/mruby-discount'
   conf.gem :github => 'matsumoto-r/mruby-redis'
