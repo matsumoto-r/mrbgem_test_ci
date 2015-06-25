@@ -16,6 +16,8 @@ MRuby::Build.new do |conf|
   conf.gem :github => 'matsumoto-r/mruby-httprequest'
   conf.gem :github => 'matsumoto-r/mruby-simplehttpserver'
   conf.gem :github => 'matsumoto-r/mruby-uname'
+  conf.gem :github => 'matsumoto-r/mruby-cache'
+  conf.gem :github => 'matsumoto-r/mruby-mutex'
 
   # depend mruby-json
   #conf.gem :github => 'matsumoto-r/mruby-oauth'
